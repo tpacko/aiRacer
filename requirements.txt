@@ -1,0 +1,4 @@
+pygame>=2.1,<2.6
+numpy>=1.21,<2.0
+neat-python>=0.92,<1.0
+torch>=2.0,<3.0

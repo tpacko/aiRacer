@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(tee test_neat.log)",
+      "Bash(cat C:\\\\\\\\Users\\\\\\\\karas\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\claude\\\\\\\\C--Users-karas-PycharmProjects-aiRacer\\\\\\\\b9351785-c1de-4f1a-a0ed-874b1ea92882\\\\\\\\tasks\\\\\\\\bi10e43dk.output)",
+      "Bash(wait *)",
+      "Bash(tasklist //FI \"IMAGENAME eq python.exe\")"
+    ]
+  }
+}

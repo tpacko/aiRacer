@@ -1,0 +1,50 @@
+starting from scratch
+
+ ****** Running generation 0 ****** 
+
+Population's average fitness: -203.91647 stdev: 369.74150
+Best fitness: 135.75028 - size: (2, 24) - species 1 - id 15
+
+==== gen 0 =================================================================
+  BEST  fit=   135.75  dist=  33.1%  laps=0  cps=  3  col=  0  steps= 2400
+        avg_spd=   53  max_spd=  132  fwd_spd=  -10  steer_fluency=0.001  stuck=1703
+        lap_avg=  --:--  lap_best=  --:--  truncated=yes
+  MEAN  fit=  -203.92  dist=   8.9%  laps= 0.0  cps=  0.7  col= 24.9  steps= 1185.0
+        avg_spd=   64  max_spd=  140  fwd_spd=   -3  steer_fluency=0.020  stuck=457.6
+
+saved new best: gen=0 fitness=135.7503 (prior=none) dist=33.1% col=0 path=artifacts_test/best_neat_policy.pkl
+Average adjusted fitness: 0.828
+Mean genetic distance 1.616, standard deviation 0.483
+Population of 150 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    0   105    135.8    0.771     0
+     2    0    45      8.5    0.884     0
+Total extinctions: 0
+Generation time: 108.491 sec
+Saving checkpoint to artifacts_test/neat-checkpoint-0
+
+ ****** Running generation 1 ****** 
+
+Population's average fitness: -169.35715 stdev: 363.01032
+Best fitness: 135.75028 - size: (2, 24) - species 2 - id 15
+
+==== gen 1 =================================================================
+  BEST  fit=   135.75  dist=  33.1%  laps=0  cps=  3  col=  0  steps= 2400
+        avg_spd=   53  max_spd=  132  fwd_spd=  -10  steer_fluency=0.001  stuck=1703
+        lap_avg=  --:--  lap_best=  --:--  truncated=yes
+  MEAN  fit=  -169.36  dist=   6.8%  laps= 0.0  cps=  0.5  col= 20.9  steps= 1189.3
+        avg_spd=   60  max_spd=  138  fwd_spd=   -9  steer_fluency=0.018  stuck=587.8
+
+Average adjusted fitness: 0.842
+Mean genetic distance 1.675, standard deviation 0.443
+Population of 150 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    1    78    125.7    0.794     1
+     2    1    72    135.8    0.890     0
+Total extinctions: 0
+Generation time: 217.148 sec (162.819 average)
+Saving checkpoint to artifacts_test/neat-checkpoint-1
+kept prior best fitness=135.7503 (winner=135.7503)
+saved=artifacts_test/best_neat_policy.pkl
